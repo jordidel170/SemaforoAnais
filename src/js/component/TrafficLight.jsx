@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import App from "./app";
-import background from "/workspaces/FP64-JordiGoixart-TrafficLight/src/img/mates.jpg"
+import background from "./mates.jpg"
 
 const TrafficLights = () => {
     const [selected, setSelected] = useState("yellow");
